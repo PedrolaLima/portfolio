@@ -8,6 +8,7 @@
   box-sizing: border-box;
 }
 
+
 button {
   cursor: pointer;
 }
@@ -115,7 +116,7 @@ main {
 #home h1 {
   font-size: 46px;
   margin-bottom: 20px;
-  margin-right: 200px;
+  margin-right: 150px;
 }
 
 .name {
@@ -152,6 +153,7 @@ main {
 
 #home img {
   filter: drop-shadow(4px 4px 10px #999999);
+  ;
   padding-bottom: 50px;
 }
 
@@ -348,6 +350,7 @@ main {
 
 #projetos img {
   filter: drop-shadow(1px 4px 8px #999999);
+  max-width: 750px;
 }
 
 #projetos div {
@@ -582,7 +585,7 @@ footer {
     margin-right: 0;
   }
 
-  body {
+  body, html {
     overflow-x: hidden;
   }
 
@@ -626,6 +629,7 @@ footer {
   }
 
   .menu-list li {
+    margin-left: 0;
     opacity: 0;
   }
 
@@ -788,6 +792,8 @@ footer {
     align-self: center;
     width: 80vw;
     height: 30vh;
+
+    max-height: 800px;
   }
 
   #projetos h2 {
