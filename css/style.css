@@ -85,6 +85,27 @@ header a {
   gap: 40px;
 }
 
+.menu-list li{
+  position: relative;
+  padding: 0 10px;
+}
+
+.menu-list li::after{
+  content:'';
+  position:absolute;
+  background-color: #00917c;
+  height: 3px;
+  width: 0%;
+  left: 0;
+  bottom: -7px;
+  transition: all 0.5s ease;
+}
+
+.menu-list li:hover::after{
+  width: 100%;
+}
+
+
 .mobile-menu {
   display: none;
   cursor: pointer;
@@ -917,7 +938,22 @@ footer {
     width: 40%;
     height: 40%;
   }
+}
 
+
+@media(min-width: 1300px) and (max-width: 1700px){
+
+#home img{
+  margin-right: -170px;
+  }
+}
+
+#sobremim img{
+  margin-right: -100px;
+}
+
+#habilidades {
+  width: 1300px;
 }
 
 .menu-list.active {
