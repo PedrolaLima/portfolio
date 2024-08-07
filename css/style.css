@@ -183,7 +183,7 @@ main {
 #sobremim {
   scroll-margin-top: 88px;
   margin-left: -220px;
-  margin-right: -220px;
+  margin-right: -300px;
   margin-top: 140px;
   padding-bottom: 70px;
   padding-left: 220px;
@@ -258,11 +258,6 @@ main {
 
 #habilidades img {
   border-radius: 10px;
-  transition: all ease-out 0.1s;
-}
-
-#habilidades ul:hover {
-  flex-grow: 3;
 }
 
 .texto-sobre-imagem {
@@ -849,7 +844,7 @@ footer {
 
   .projecttxt1,
   .projecttxt2 {
-    margin-left: 10vw;
+    margin-left: 15vw;
     width: auto;
   }
 
@@ -921,7 +916,7 @@ footer {
   }
 }
 
-@media (min-width: 600px) and (max-width: 1299px) {
+@media (min-width: 700px) and (max-width: 1299px) {
 
   #projetos img {
     width: 70vw;
@@ -948,13 +943,9 @@ footer {
   }
 }
 
-#sobremim img{
-  margin-right: -100px;
-}
 
-#habilidades {
-  width: 1300px;
-}
+
+
 
 .menu-list.active {
   transform: translate(0);
