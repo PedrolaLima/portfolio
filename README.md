@@ -13,4 +13,4 @@ Este é o meu **portfólio pessoal**, desenvolvido como parte do curso **Inician
 
 Você pode acessar o meu portfólio online clicando no link abaixo:
 
-[**Visite meu Portfólio**](https://seu-link-do-github-pages)
+[**Visite meu Portfólio**](https://pedrolalima.github.io/portfolio/)
